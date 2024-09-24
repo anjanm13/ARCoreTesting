@@ -17,6 +17,8 @@ class  Activity : AppCompatActivity(R.layout.activity) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
+
         if (isARCoreSupportedAndUpToDate()) {
             supportFragmentManager.commit {
                 add(R.id.containerFragment, MainFragment::class.java, Bundle())
