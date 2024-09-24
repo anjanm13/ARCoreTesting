@@ -22,7 +22,8 @@ class  Activity : AppCompatActivity(R.layout.activity) {
         if (isARCoreSupportedAndUpToDate()) {
             supportFragmentManager.commit {
                 add(R.id.containerFragment, MainFragment::class.java, Bundle())
-            }
+        }
+
         } else {
             Toast.makeText(this, "ARCore not supported :(", Toast.LENGTH_LONG).show()
         }
