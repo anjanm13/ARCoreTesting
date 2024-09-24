@@ -4,3 +4,5 @@ Just a small demo of some basic animations I made in Blender animating on top of
 
 ### How to use
 Build it and point the camera at the pokemon card in the assets folder, there'll be a button to change the current animation to an attack animation.
+
+<img src="Screenshot_20240924-112309.png" width=170 height=350>
